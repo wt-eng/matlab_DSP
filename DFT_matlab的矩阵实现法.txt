@@ -1,0 +1,6 @@
+数字信号处理中的DFT
+可以用矩阵得到
+X=WN*x
+WN矩阵称为N点DFT矩阵，在matlab中可以利用函数dftmtx(N)得到
+求IDFT的矩阵可以用conj(dftmtx(N))/N得到
+（清华版数字信号处理p149）
